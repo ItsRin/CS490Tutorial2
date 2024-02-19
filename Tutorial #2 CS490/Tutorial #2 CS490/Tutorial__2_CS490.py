@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Activity I: Loading the Denial-of-Service.csv file and checking entries
-data_table = np.genfromtxt('C:/Users/Rin/source/repos/Tutorial #2 CS490/Denial-of-Service.csv', dtype=None, delimiter=',', names=True, encoding='utf-8-sig')
+data_table = np.genfromtxt('Denial-of-Service.csv', dtype=None, delimiter=',', names=True, encoding='utf-8-sig')
 print('The header is', data_table.dtype.names)
 
 # Activity II: Creating a subset based on conditions (label = 0, port number = 2, flows = 3)
