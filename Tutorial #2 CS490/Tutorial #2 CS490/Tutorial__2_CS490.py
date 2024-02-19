@@ -42,7 +42,6 @@ plt.yticks([10, 20, 30, 40, 50], fontsize=28)
 plt.xlabel('(rx_bytes - tx_kbps) color', fontsize=28)
 plt.ylabel('Number', fontsize=28)
 plt.legend(loc=1, fontsize=18)
-# Save the figure before showing it to prevent a blank image
 plt.tight_layout()  # Compact layout for the figure.
 plt.savefig('no_attack.png', format='png', bbox_inches='tight')  # Saves figure to an output image file.
-plt.show()  # Now display the plot.
+plt.show()
